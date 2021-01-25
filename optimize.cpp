@@ -8,6 +8,7 @@
 #define RED     "\033[31m"
 #define GREEN   "\033[32m"
 
+//NOTE: This should be compiled with the -Ofast flag
 
 std::vector<double> go(std::vector<double> prices, double window) {
     // Create instantaneous changes vector
